@@ -129,11 +129,11 @@ extern audio_hal_func_t AUDIO_CODEC_ES7210_DEFAULT_HANDLE;
      {                                                  \
         .type = PERIPH_ID_ADC_BTN,                      \
         .user_id = INPUT_KEY_USER_ID_REC,               \
-        .act_id = BUTTON_REC_ID,                        \
+        .act_id = BUTTON_VOLDOWN_ID,                    \
     },                                                  \
     {                                                   \
         .type = PERIPH_ID_ADC_BTN,                      \
-        .user_id = INPUT_KEY_USER_ID_MUTE,              \
+        .user_id = INPUT_KEY_USER_ID_MODE,              \
         .act_id = BUTTON_MODE_ID,                       \
     },                                                  \
     {                                                   \
@@ -149,12 +149,12 @@ extern audio_hal_func_t AUDIO_CODEC_ES7210_DEFAULT_HANDLE;
     {                                                   \
         .type = PERIPH_ID_ADC_BTN,                      \
         .user_id = INPUT_KEY_USER_ID_VOLUP,             \
-        .act_id = BUTTON_VOLUP_ID,                      \
+        .act_id = INPUT_KEY_NUM,                        \
     },                                                  \
     {                                                   \
         .type = PERIPH_ID_ADC_BTN,                      \
         .user_id = INPUT_KEY_USER_ID_VOLDOWN,           \
-        .act_id = BUTTON_VOLDOWN_ID,                    \
+        .act_id = BUTTON_REC_ID,                    \
     }                                                   \
 }
 
